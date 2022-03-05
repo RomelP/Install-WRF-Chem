@@ -1,0 +1,33 @@
+Utilizar los siguientes comandos para ajustar las variables de ambiente de UNIX:
+
+________________________________________________
+para abrir el archivo a editar:
+sudo nano ~/.bashrc
+________________________________________________
+Incluir al final las siguientes lineas:
+
+
+(...)
+export DIR=/home/(-USER-NAME-)/Build_WRF/LIBRARIES
+export CC=gcc
+export CXX=g++
+export FC=gfortran
+export FCFLAGS=-m64
+export F77=gfortran
+export FFLAGS=-m64
+export PATH=$DIR/netcdf/bin:$PATH
+export NETCDF=$DIR/netcdf
+export PATH=$DIR/mpich/bin:$PATH
+export LDFLAGS=-L$DIR/grib2/lib 
+export CPPFLAGS=-I$DIR/grib2/include
+export JASPERLIB=$DIR/grib2/lib
+export JASPERINC=$DIR/grib2/include
+export WRF_EM_CORE=1
+export WRFIO_NCD_LARGE_FILE_SUPPORT=1
+
+
+________________________________________________
+Aplicar los cambios al sistema con le siguiente comando:
+source ~/.bashrc
+
+
