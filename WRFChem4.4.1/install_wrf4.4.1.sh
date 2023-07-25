@@ -1,4 +1,5 @@
 #!/bin/sh
+
 source ~/.bashrc
 sudo apt update
 sudo apt upgrade
