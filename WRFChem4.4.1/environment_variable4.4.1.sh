@@ -10,7 +10,7 @@
 #Incluir al final las siguientes lineas:
 #________________________________________________
 # Compilers
-export DIR=/home/Build_WRF/LIBRARIES
+export DIR=$HOME/Build_WRF/LIBRARIES
 export CC=gcc
 export CXX=g++
 export FC=gfortran
