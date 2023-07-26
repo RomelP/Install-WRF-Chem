@@ -8,3 +8,5 @@
 ### 6. Configurar y compilar WRF.
 ### 7. Configurar y compilar WPS.
 ### 8. Segur PDF
+
+Ref: https://www.youtube.com/watch?v=m2FkdqPiJZ0
