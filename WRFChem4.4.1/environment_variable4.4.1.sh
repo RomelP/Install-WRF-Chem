@@ -1,4 +1,5 @@
 # Emplear los siguientes comando para editar ambiente UNIX:
+
 #________________________________________________
 #para abrir el archivo a editar:
 
