@@ -91,7 +91,10 @@ make install
 cd $HOME/Build_WRF
 wget -c https://github.com/wrf-model/WRF/releases/download/v4.4/v4.4.tar.gz -O wrf-4.4.tar.gz 
 tar -xvzf wrf-4.4.tar.gz
-cd  WRFV4.4
+cd WRFV4.4/chem/KPP/kpp/kpp-2.1/src
+/usr/bin/flex scan.l
+cd $HOME/Build_WRF/WRFV4.4
+ulimit -s unlimited
 vim configure
 echo "change from --if [ "$USENETCDFPAR" == "1" ] ; then -- to --f [ "$USENETCDFPAR" = "1" ] ; then--" 
 # Run configure wrf
