@@ -84,7 +84,7 @@ make install
 # JasPer
 cd $HOME/Build_WRF/src
 tar -xvzf jasper-2.0.10.tar.gz
-cmake -G "Unix Makefiles" -H/$DIR/src/jasper-2.0.10 -B/$DIR/src/jasper-2.0.10-build -DCMAKE_INSTALL_PREFIX=/$DIR/jasper
+cmake -G "Unix Makefiles" -H$DIR/src/jasper-2.0.10 -B$DIR/src/jasper-2.0.10-build -DCMAKE_INSTALL_PREFIX=$DIR/jasper
 cd jasper-2.0.10/
 make install
 #----------  Install WRF 4.4  ----------# 
