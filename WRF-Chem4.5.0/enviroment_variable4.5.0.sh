@@ -4,7 +4,8 @@
 #________________________________________________
 #para abrir el archivo a editar:
 
-#sudo vim ~/.bashrc
+#sudo vim ~/.bashrc # for all users
+# vim ~/.profile # for user alone
 #________________________________________________
 #Incluir al final las siguientes lineas:
 
