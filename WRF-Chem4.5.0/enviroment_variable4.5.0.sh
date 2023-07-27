@@ -1,15 +1,9 @@
-# Emplear los siguientes comando para editar ambiente UNIX:
-
-
 #________________________________________________
-#para abrir el archivo a editar:
-
+# Open and edit with vim:
 #sudo vim ~/.bashrc # for all users
 # vim ~/.profile # for user alone
 #________________________________________________
-#Incluir al final las siguientes lineas:
-
-#(...)
+# Include at end of line
 
 export HOME=`cd;pwd`
 # Compilers
@@ -61,5 +55,5 @@ export JASPERINC=$DIR/grib2/include
 export PATH=$DIR/bin:$PATH
 export LD_LIBRARY_PATH=$DIR/lib:$LD_LIBRARY_PATH
 #________________________________________________________
-# Aplicar los cambios al sistema con le siguiente comando:
+# Apply change using the command
 # source ~/.bashrc
