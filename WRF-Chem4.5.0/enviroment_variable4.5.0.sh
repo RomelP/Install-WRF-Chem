@@ -26,16 +26,16 @@ export NETCDF=$DIR/NETCDF
 export LD_LIBRARY_PATH=$DIR/NETCDF/lib:$LD_LIBRARY_PATH
 export CPPFLAGS=-I$DIR/NETCDF/include
 export LDFLAGS=-L$DIR/NETCDF/lib
-# MPICH
-export PATH=$DIR/mpich/bin:$PATH
-# libpng
-export LDFLAGS=-L$DIR/grib2/lib
-export CPPFLAGS=-I$DIR/grib2/include
-# JasPer
+# JASPER
 export JASPERLIB=$DIR/grib2/lib
 export JASPERINC=$DIR/grib2/include
+# LIBPNG
+export LDFLAGS=-L$DIR/grib2/lib
+export CPPFLAGS=-I$DIR/grib2/include
+# MPICH
+export PATH=$DIR/mpich/bin:$PATH
+#-----------------------------------------------
 # WRF v4.5
-ulimit -s unlimited
 export WRF_EM_CORE=1
 export WRF_NMM_CORE=0  
 export WRF_CHEM=1
@@ -48,7 +48,7 @@ export WRF_SRC_ROOT_DIR=$WRFCHEM_HOME/WRFV4.5
 export PATH=$KPP_HOME/bin:$PATH
 export SED=/usr/bin/sed
 export WRFIO_NCD_LARGE_FILE_SUPPORT=1
-export WRF_DIR=$WRFCHEM_HOME/WRFV4.5
+#-----------------------------------------------
 # WPS-4.5
 export JASPERLIB=$DIR/grib2/lib
 export JASPERINC=$DIR/grib2/include
