@@ -48,12 +48,14 @@ export WRF_SRC_ROOT_DIR=$WRFCHEM_HOME/WRFV4.5
 export PATH=$KPP_HOME/bin:$PATH
 export SED=/usr/bin/sed
 export WRFIO_NCD_LARGE_FILE_SUPPORT=1
+export WRF_DIR=$WRFCHEM_HOME/WRFV4.5
 #-----------------------------------------------
 # WPS-4.5
 export JASPERLIB=$DIR/grib2/lib
 export JASPERINC=$DIR/grib2/include
 export PATH=$DIR/bin:$PATH
 export LD_LIBRARY_PATH=$DIR/lib:$LD_LIBRARY_PATH
+
 #________________________________________________________
 # Apply change using the command
 # source ~/.bashrc
