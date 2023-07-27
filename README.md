@@ -14,6 +14,7 @@ Ref: https://www.youtube.com/watch?v=m2FkdqPiJZ0
 ## V4.5.0
 ### 1. Copy "enviroment_variable5.4.1.sh" to "sudo vim ~/.bashrc".
 ### 2. Applying change with "source ~/.bashrc".
-### 3. Generate executable with "sudo chmod +x install_wrf4.5.0".  
+### 3. Generate executable with "sudo chmod +x install_wrf4.5.0.sh".  
+### 4. Run the following command ./install_wrf4.5.0.sh".
 
 Ref: https://github.com/yusufalizade/Install-WRF-Chem-4.5-and-KPP-on-Ubuntu.git
