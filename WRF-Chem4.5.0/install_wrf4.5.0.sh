@@ -79,7 +79,7 @@ export LDFLAGS=-L$DIR/NETCDF/lib
 make
 make install
 #----------------------------------------------------------
-# JasPer
+# JASPER
 cd $WRFCHEM_HOME/Downloads
 unzip jasper-1.900.1.zip
 cd jasper-1.900.1
@@ -135,11 +135,13 @@ export WRFIO_NCD_LARGE_FILE_SUPPORT=1
 cd chem/KPP
 sed -i -e 's/="-O"/="-O0"/' configure_kpp
 cd -
+
 sed -i -e 's/if [ "$USENETCDFPAR" == "1" ] ; then/if [ "$USENETCDFPAR" = "1" ] ; then/' configure
 ./configure # 34, 1 for gfortran and distributed memory
 # Compile WRF-Chem
 ./compile em_real 2>&1 | tee wrfchem_compile.log
 export WRF_DIR=$WRFCHEM_HOME/WRFV4.5
+
 # Compile the WRF-Chem external emissions conversion code
 ./compile emi_conv 2>1 | tee emission_compile.log
 
@@ -166,3 +168,4 @@ green='\033[0;32m'
 clear='\033[0m'
 echo "${green}*Successfully installed !!! WRF-Chem 4.5*${clear}"
 
+#----------------------------------------------------------------------
