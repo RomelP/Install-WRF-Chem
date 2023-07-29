@@ -159,5 +159,5 @@ export LD_LIBRARY_PATH=$DIR/lib:$LD_LIBRARY_PATH
 green='\033[0;32m'
 # Clear the color after that
 clear='\033[0m'
-echo "${green}***Congratulations! You have successfully installed the WRF-Chem version 4.5 on your system***${clear}"
+echo "${green}*-Congratulations!!! Installed the WRF-Chem4.5-*${clear}"
 #----------------------------------------------------------------------
