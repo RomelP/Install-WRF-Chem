@@ -101,7 +101,14 @@ cd mpich-4.0.3
 make
 make install
 export PATH=$DIR/MPICH/bin:$PATH
-
+#-----------------------------------------------------------
+# Download GeoData
+cd $WRFCHEM_HOME/Downloads
+wget -c https://www2.mmm.ucar.edu/wrf/src/wps_files/geog_high_res_mandatory.tar.gz -O GEOG_DATA.tar.gz
+tar -zxvf GEOG_DATA.tar.gz -C $WRFCHEM_HOME
+# Create DATA file
+cd $WRFCHEM_HOME
+mkdir DATA
 #----------------------------------------------------------------------
 #------------------- Install WRF 4.5  --------------------# 
 cd $WRFCHEM_HOME/Downloads
