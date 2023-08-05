@@ -6,7 +6,7 @@ cd "$WRFCHEM_HOME/DATA" || exit
 
 # download date
 year  = '2023'
-month = "07
+month = '07'
 day  = '27' 
 hour ='00'
 
