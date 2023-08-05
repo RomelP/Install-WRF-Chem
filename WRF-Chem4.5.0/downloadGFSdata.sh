@@ -25,6 +25,6 @@ while [$fHour -le 24]:do
     wget -c https://nomads.ncep.noaa.gov/pub/data/nccf/com/gfs/prod/gfs.${year}${month}${day}/${hour}/atmos/gfs.t${hour}z.pgrb2.Op25.f${k}{fHour}
     fHours = ${(fHour + 1)}
 
-    done
+done
 
 #----------------------------------------------------------
