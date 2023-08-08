@@ -6,8 +6,8 @@ cd "$WRFCHEM_HOME/DATA" || exit
 
 # download date
 year='2023'
-month='07'
-day='27' 
+month='08'
+day='08' 
 hour='00'
 
 # clear previos download
