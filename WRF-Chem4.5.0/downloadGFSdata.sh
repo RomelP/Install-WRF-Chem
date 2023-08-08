@@ -18,7 +18,7 @@ rm -rf gfs.t${hour}z*
 fHour=0
 while [$fHour -le 24]
 do
-    [$fHour -lt 10] && k='00' || k = '0'
+    [$fHour -lt 10] && k='00' || k='0'
     wget -c https://nomads.ncep.noaa.gov/pub/data/nccf/com/gfs/prod/gfs.${year}${month}${day}/${hour}/atmos/gfs.t${hour}z.pgrb2.Op25.f${k}${fHour}
     fHours=$((fHour + 1))
 done
