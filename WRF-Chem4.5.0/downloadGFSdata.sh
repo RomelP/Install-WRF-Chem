@@ -4,7 +4,6 @@
 # download folder
 cd "$WRFCHEM_HOME/DATA" || exit
 # download date
-
 echo "date today!!! "
 read -p "year: " year   #year='2023'
 read -p "month: " month #month='08'
