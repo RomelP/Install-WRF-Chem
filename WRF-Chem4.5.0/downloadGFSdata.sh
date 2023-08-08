@@ -3,13 +3,14 @@
 #----------------------------------------------------------
 # download folder
 cd "$WRFCHEM_HOME/DATA" || exit
-
 # download date
-year='2023'
-month='08'
-day='08' 
-hour='00'
 
+echo "date today!!! "
+read -p "year: " year   #year='2023'
+read -p "month: " month #month='08'
+read -p "day: " day     #day='08' 
+read -p "hour: " hour   #hour='00'
+ 
 # clear previos download
 rm -rf gfs.t${hour}z*
 #----------------------------------------------------------
