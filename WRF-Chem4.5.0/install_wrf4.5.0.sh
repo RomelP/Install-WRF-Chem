@@ -26,9 +26,9 @@ export F77=gfortran
 #----------------------------------------------------------
 # Download and install Zlib library
 cd $WRFCHEM_HOME/Downloads
-wget -c https://www.zlib.net/zlib-1.2.13.tar.gz
-tar -xzvf zlib-1.2.13.tar.gz
-cd zlib-1.2.13
+wget -c https://zlib.net/zlib-1.3.tar.gz
+tar -xzvf zlib-1.3.tar.gz
+cd zlib-1.3
 ./configure --prefix=$DIR/grib2
 make 
 make install
