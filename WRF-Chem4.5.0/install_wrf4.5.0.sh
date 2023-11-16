@@ -13,6 +13,8 @@ mkdir $HOME/Models
 mkdir $HOME/Models/WRF-Chem
 export WRFCHEM_HOME=$HOME/Models/WRF-Chem
 cd $WRFCHEM_HOME
+mkdir DATA 
+mkdir OUTPUT
 mkdir Downloads
 mkdir Libs
 mkdir Libs/grib2
