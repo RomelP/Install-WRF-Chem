@@ -13,8 +13,6 @@ mkdir $HOME/Models
 mkdir $HOME/Models/WRF-Chem
 export WRFCHEM_HOME=$HOME/Models/WRF-Chem
 cd $WRFCHEM_HOME
-mkdir DATA 
-mkdir OUTPUT
 mkdir Downloads
 mkdir Libs
 mkdir Libs/grib2
@@ -111,6 +109,8 @@ tar -zxvf GEOG_DATA.tar.gz -C $WRFCHEM_HOME
 # Create DATA file
 cd $WRFCHEM_HOME
 mkdir DATA
+# Create output file
+mkdir OUTPUT
 #----------------------------------------------------------------------
 #------------------- Install WRF 4.5  --------------------# 
 cd $WRFCHEM_HOME/Downloads
