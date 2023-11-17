@@ -20,7 +20,7 @@ do
   if [[ $i -lt 10 ]]
   then 
       mkdir ${year}${month}0${i}
-      cd "$HOME/Build_WRF/DATA/${year}${month}0${i}" || exit
+      cd "$WRFCHEM_HOME/DATA:/${year}${month}0${i}" || exit
       # clear previos download
       rm -rf gfs.t${hour}z*
       #----------------------------------------------------------
@@ -35,7 +35,7 @@ do
   then
       #----------------------------------------------------------
       mkdir ${year}${month}${i}
-      cd "$HOME/Build_WRF/DATA/${year}${month}${i}" || exit
+      cd "$WRFCHEM_HOME/DATA/${year}${month}${i}" || exit
       # clear previos download
       rm -rf gfs.t${hour}z*
       #----------------------------------------------------------
