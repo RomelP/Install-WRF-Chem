@@ -2,7 +2,7 @@
 
 #----------------------------------------------------------
 # download folder
-cd "$HOME/Build_WRF/DATA" || exit
+cd "$WRFCHEM_HOME/DATA" || exit
 #----------------------------------------------------------
 # download date
 echo "date today!!! "
