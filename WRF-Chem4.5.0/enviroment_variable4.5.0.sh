@@ -36,6 +36,8 @@ export CPPFLAGS=-I$DIR/grib2/include
 export PATH=$DIR/mpich/bin:$PATH
 #-----------------------------------------------
 # WRF v4.5
+ulimit -s unlimited
+export MALLOC_CHECK_=0
 export WRF_EM_CORE=1
 export WRF_NMM_CORE=0  
 export WRF_CHEM=1
