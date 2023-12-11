@@ -118,6 +118,7 @@ wget -c https://github.com/wrf-model/WRF/releases/download/v4.5/v4.5.tar.gz -O w
 tar -xzvf wrf-4.5.tar.gz -C $WRFCHEM_HOME
 cd $WRFCHEM_HOME/WRFV4.5
 ulimit -s unlimited
+export MALLOC_CHECK_=0
 export WRF_EM_CORE=1
 export WRF_NMM_CORE=0  
 export WRF_CHEM=1
