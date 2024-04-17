@@ -17,3 +17,10 @@ Ref: https://www.youtube.com/watch?v=m2FkdqPiJZ0
 ### 4. Applying change with "source ~/.bashrc".
   
 Ref: https://github.com/yusufalizade/Install-WRF-Chem-4.5-and-KPP-on-Ubuntu.git
+
+## V4.5.2
+
+### 1. bash WRF4.5.2_Install.bash -chem
+
+Ref: https://github.com/bakamotokatas/WRF-Install-Script.git
+
