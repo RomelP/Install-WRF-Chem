@@ -20,6 +20,8 @@ Ref: https://github.com/yusufalizade/Install-WRF-Chem-4.5-and-KPP-on-Ubuntu.git
 
 ## V4.5.2
 
+To run the scripts, you should run the commands below.
+
 ### 1. bash WRF4.5.2_Install.bash -chem
 
 Ref: https://github.com/bakamotokatas/WRF-Install-Script.git
